@@ -1,0 +1,3 @@
+#!/bin/bash
+echo Dont forget quotes around both parameters
+find . -name "$2" -exec grep -i -H -n "$1" {} \;
